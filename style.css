@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, sans-serif;
+    margin :20px;
+}
+.container{
+    max-width: 400px;
+    margin :auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+}
+
+.error{
+    color:red;
+}
+.success{
+    color:green;
+}
+
+.employee{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border : 1px solid black;
+    margin-top: 5px;
+}
